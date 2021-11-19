@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwarmTile", "SwarmTile.csproj", "{D82AE21D-D9F8-4F6A-B337-5C987FA6AB72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{DF990D48-F001-48D4-9336-581508B59754}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwarmTile.Sample", "samples\SwarmTile.Sample.csproj", "{902F5880-E238-4141-9C1C-8331F04C519B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D82AE21D-D9F8-4F6A-B337-5C987FA6AB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82AE21D-D9F8-4F6A-B337-5C987FA6AB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82AE21D-D9F8-4F6A-B337-5C987FA6AB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82AE21D-D9F8-4F6A-B337-5C987FA6AB72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{902F5880-E238-4141-9C1C-8331F04C519B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{902F5880-E238-4141-9C1C-8331F04C519B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{902F5880-E238-4141-9C1C-8331F04C519B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902F5880-E238-4141-9C1C-8331F04C519B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{902F5880-E238-4141-9C1C-8331F04C519B} = {DF990D48-F001-48D4-9336-581508B59754}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2301B80B-1D3F-4771-95D8-68980610EA66}
+	EndGlobalSection
+EndGlobal
